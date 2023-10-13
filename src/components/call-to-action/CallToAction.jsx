@@ -3,10 +3,11 @@ import { createRipples } from '../../utils/button'
 
 
 const style = {
-    position: 'absolute',
-    top: '45%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
+    position: 'relative',
+
+    marginTop: '200px',
+    marginLeft: 'auto',
+    marginRight: 'auto',
     padding: '20px 40px',
     backgroundColor: 'var(--main-color)',
     borderRadius: '10px',
